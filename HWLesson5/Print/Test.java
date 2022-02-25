@@ -16,8 +16,7 @@ public class Test {
         Magazine magazine = new Magazine();
         Printer printer = new Printer();
 
-        printer.print(book);
         printer.print(magazine);
-
+        printer.print(book);
     }
 }
