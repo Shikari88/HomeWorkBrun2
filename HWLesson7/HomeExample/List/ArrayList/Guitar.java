@@ -17,6 +17,7 @@ public class Guitar {
     public String getName() {
         return name;
     }
+
     public void setName() {
         this.name = name;
     }
@@ -24,14 +25,16 @@ public class Guitar {
     public int getCountStrings() {
         return countStrings;
     }
+
     public void setCountStrings() {
         this.countStrings = countStrings;
     }
 
-    public String getMaterials(){
+    public String getMaterials() {
         return materials;
     }
-    public void setMaterials(){
+
+    public void setMaterials() {
         this.materials = materials;
     }
 
@@ -39,15 +42,16 @@ public class Guitar {
         return pegs;
     }
 
-    public void setPegs(){
+    public void setPegs() {
         this.pegs = pegs;
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return "Guitar = {name = " + name +
                 ", materials = " + materials +
                 ", countStrings = " + countStrings +
                 ", pegs = " + pegs +
                 "}";
     }
+}

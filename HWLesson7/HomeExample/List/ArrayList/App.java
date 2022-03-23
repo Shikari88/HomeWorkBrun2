@@ -1,4 +1,4 @@
-package HWLesson7.HomeExample.ArrayList;
+package HWLesson7.HomeExample.List.ArrayList;
 
 import java.util.ArrayList;
 import java.util.Arrays;
